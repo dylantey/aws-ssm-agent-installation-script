@@ -6,7 +6,7 @@ output = stream.read().strip()
 if output == 'NAME="SLES"':
   print("OS Version is SLES")
   print("Installing SSM Agent...")
-  installAgent = os.popen('sudo zypper install amazon-ssm-agent')
+  installAgent = os.popen('sudo zypper -n install amazon-ssm-agent')
   enableService = os.popen('sudo systemctl enable amazon-ssm-agent')
   startService = os.popen('sudo systemctl start amazon-ssm-agent')
   statusService = os.popen('sudo systemctl status amazon-ssm-agent')
