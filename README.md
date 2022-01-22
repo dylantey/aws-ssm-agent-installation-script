@@ -1,0 +1,1 @@
+# aws-ssm-agent-installation-script
