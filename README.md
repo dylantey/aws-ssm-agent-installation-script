@@ -1,5 +1,12 @@
 # aws-ssm-agent-installation-script
 
+## Running the script
+### Bash
+`bash install_cloudwatch_linux.sh`
+
+### Python
+`python install_cloudwatch_linux.py` or `python3 install_cloudwatch_linux.py`
+
 ## Supported OS
 1. SLES
 
