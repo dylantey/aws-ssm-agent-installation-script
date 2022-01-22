@@ -1,4 +1,4 @@
-# aws-ssm-agent-installation-script
+# AWS SSM Agent Installation Scripts
 
 ## Running the script
 ### Bash
